@@ -1,0 +1,19 @@
+# Build artifacts
+*.db
+*.pyc
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Test files
+test-output/

@@ -1,0 +1,148 @@
+### File header must not be changed
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+UUID = 3c8f28bd-4a08-4a61-a989-7f2592458d97
+
+### A unique number indicates the version of this file.
+SERIAL_NUMBER = 20241219
+
+ICON = pwo.svg
+
+### The default name of this table
+NAME = WestPwoKaren
+
+### The local names of this table  
+NAME.pwo_MM = WestPwoKaren
+NAME.en_US = WestPwoKaren
+
+### Description
+DESCRIPTION = Western Pwo Karen keyboard
+DESCRIPTION.pwo_MM = Western Pwo Karen keyboard
+DESCRIPTION.en_US = Western Pwo Karen keyboard
+
+### Supported languages by this table
+LANGUAGES = pwo,kar
+
+### The author of this table
+AUTHOR = Kawthoolei
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = PWO
+
+### Configuration settings - Optimized for direct input
+AUTO_SELECT = TRUE
+AUTO_WILDCARD = FALSE
+AUTO_COMMIT = TRUE
+AUTO_SPLIT = TRUE
+ALWAYS_SHOW_LOOKUP = FALSE
+NEVER_SHOW_LOOKUP = TRUE
+DEF_FULL_WIDTH_PUNCT = FALSE
+DEF_FULL_WIDTH_LETTER = FALSE
+USER_CAN_DEFINE_PHRASE = FALSE
+PINYIN_MODE = FALSE
+DYNAMIC_ADJUST = FALSE
+
+### The max number of input keys for every phrase or character.
+MAX_KEY_LENGTH = 1
+
+### Valid input chars - Cleaned up
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890[]\;':",.
+
+### Key configurations - Direct input mode
+SPLIT_KEYS = 
+COMMIT_KEYS = 
+FORWARD_KEYS = 
+SELECT_KEYS = 
+PAGE_UP_KEYS = 
+PAGE_DOWN_KEYS = 
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+
+### Numbers (Myanmar digits)
+1	၁	1000
+2	၂	1000
+3	၃	1000
+4	၄	1000
+5	၅	1000
+6	၆	1000
+7	၇	1000
+8	၈	1000
+9	၉	1000
+0	၀	1000
+
+### Letters - Base layer (lowercase)
+q	ဆ	1000
+w	တ	1000
+e	န	1000
+r	မ	1000
+t	အ	1000
+y	ပ	1000
+u	က	1000
+i	င	1000
+o	ဧ	1000
+p	စ	1000
+a	ၜ	1000
+s	ျ	1000
+d	ိ	1000
+f	ၠ	1000
+g	ါ	1000
+h	့	1000
+j	ြ	1000
+k	ု	1000
+l	ူ	1000
+z	ဖ	1000
+x	ထ	1000
+c	ခ	1000
+v	လ	1000
+b	ဘ	1000
+n	ည	1000
+m	ြ	1000
+
+### Letters - Shift layer (uppercase) - Western Pwo Karen specific
+Q	ဒ	800
+W	ဝ	800
+E	်	800
+R	ၩ	800
+T	ၫ	800
+Y	ၯ	800
+U	ၬ	800
+I	ၤ	800
+O	ၥ	800
+P	ၧ	800
+A	ၦ	800
+S	ၪ	800
+D	ီ	800
+F	ၠ	800
+G	ွ	800
+H	ံ	800
+J	ဲ	800
+K	ု	800
+L	ူ	800
+Z	ဇ	800
+X	ၮ	800
+C	ဃ	800
+V	ၭ	800
+B	ယ	800
+N	ွ	800
+M	ၤ	800
+
+### Special characters and punctuation
+[	ဟ	1000
+]	ၚ	1000
+\	'	1000
+;	း	1000
+'	၊	1000
+:	ဂ	800
+"	။	800
+,	၊	1000
+.	။	1000
+
+END_TABLE

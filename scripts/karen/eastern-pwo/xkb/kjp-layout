@@ -1,0 +1,62 @@
+// Eastern Pwo Karen keyboard layout for X11
+// Based on EasternPwoKarenUnicode.klc
+// Language: kjp (Eastern Pwo Karen)
+partial alphanumeric_keys 
+xkb_symbols "kjp" {
+    name[Group1]= "Eastern Pwo Karen";
+
+    include "mm(tilde_latch)"
+
+    key <AE01> { [ U1041, U1020, 1, exclam ] }; // ၁, ဠ, 1, !
+    key <AE02> { [ U1042, U100E, 2, at ] }; // ၂, ဎ, 2, @
+    key <AE03> { [ U1043, U100B, 3, numbersign ] }; // ၃, ဋ, 3, #
+    key <AE04> { [ U1044, dollar, 4, dollar ] }; // ၄, $, 4, $
+    key <AE05> { [ U1045, percent, 5, percent ] }; // ၅, %, 5, %
+    key <AE06> { [ U1046, asciicircum, 6, asciicircum ] }; // ၆, ^, 6, ^
+    key <AE07> { [ U1047, U101B, 7, ampersand ] }; // ၇, ရ, 7, &
+    key <AE08> { [ U1048, asterisk, 8, asterisk ] }; // ၈, *, 8, *
+    key <AE09> { [ U1049, parenleft, 9, parenleft ] }; // ၉, (, 9, (
+    key <AE10> { [ U1040, parenright, 0, parenright ] }; // ၀, ), 0, )
+    key <AE11> { [ minus, underscore ] }; // -, _
+    key <AE12> { [ equal, plus ] }; // =, +
+
+    key <AD01> { [ U1006, U1008, q, Q ] }; // ဆ, ဈ, q, Q
+    key <AD02> { [ U1010, U101D, w, W ] }; // တ, ဝ, w, W
+    key <AD03> { [ U1014, U105E, e, E ] }; // န, ၞ, e, E
+    key <AD04> { [ U1019, U1082, r, R ] }; // မ, ႂ, r, R
+    key <AD05> { [ U1021, U100D, t, T ] }; // အ, ဍ, t, T
+    key <AD06> { [ U1015, U102B, y, Y ] }; // ပ, ါဲ, y, Y
+    key <AD07> { [ U1000, U1025, u, U ] }; // က, ဥ, u, U
+    key <AD08> { [ U1004, U105A, i, I ] }; // င, ၚ, i, I
+    key <AD09> { [ U101E, U1034, o, O ] }; // သ, ဴ, o, O
+    key <AD10> { [ U1005, U106E, p, P ] }; // စ, ၮ, p, P
+    key <AD11> { [ U101F, U106F, bracketleft, braceleft ] }; // ဟ, ၯ, [, {
+    key <AD12> { [ U2606, U1070, bracketright, braceright ] }; // ☆, ၰ, ], }
+
+    key <AC01> { [ U1031, U1017, a, A ] }; // ေ, ဗ, a, A
+    key <AC02> { [ U103B, U103E, s, S ] }; // ျ, ှ, s, S
+    key <AC03> { [ U102D, U102E, d, D ] }; // ိ, ီ, d, D
+    key <AC04> { [ U103A, U1039, f, F ] }; // ်, ္, f, F
+    key <AC05> { [ U102B, U103D, g, G ] }; // ါ, ွ, g, G
+    key <AC06> { [ U1037, U1036, h, H ] }; // ့, ံ, h, H
+    key <AC07> { [ U103C, U1032, j, J ] }; // ြ, ဲ, j, J
+    key <AC08> { [ U102F, U1012, k, K ] }; // ု, ဒ, k, K
+    key <AC09> { [ U1030, U1013, l, L ] }; // ူ, ဓ, l, L
+    key <AC10> { [ U1038, U1002, semicolon, colon ] }; // း, ဂ, ;, :
+    key <AC11> { [ apostrophe, quotedbl ] }; // ', "
+    key <BKSL> { [ backslash, bar, backslash, bar ] }; // \, |, \, |
+
+    key <AB01> { [ U1016, U1007, z, Z ] }; // ဖ, ဇ, z, Z
+    key <AB02> { [ U1011, U100C, x, X ] }; // ထ, ဌ, x, X
+    key <AB03> { [ U1001, U1003, c, C ] }; // ခ, ဃ, c, C
+    key <AB04> { [ U101C, U1060, v, V ] }; // လ, ၠ, v, V
+    key <AB05> { [ U1018, U101A, b, B ] }; // ဘ, ယ, b, B
+    key <AB06> { [ U100A, U1009, n, N ] }; // ဉ, ဉ, n, N
+    key <AB07> { [ U102C, U105C, m, M ] }; // ာ, ၜ, m, M
+    key <AB08> { [ comma, U104A, comma, less ] }; // ,, ၊, ,, <
+    key <AB09> { [ U108B, U104B, period, greater ] }; // ႋ, ။, ., >
+    key <AB10> { [ slash, question ] }; // /, ?
+
+    include "level3(ralt_switch)"
+};
+

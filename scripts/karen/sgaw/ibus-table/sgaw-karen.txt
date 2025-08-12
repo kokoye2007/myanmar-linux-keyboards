@@ -1,0 +1,152 @@
+### File header must not be changed
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+UUID = f0404535-2167-4133-b3d3-0e6739a230cd
+
+### A unique number indicates the version of this file.
+SERIAL_NUMBER = 20241219
+
+ICON = ksw.png
+
+### The default name of this table
+NAME = SgawKaren
+
+### The local names of this table  
+NAME.ksw_MM = SgawKaren
+NAME.en_US = SgawKaren
+
+### Description
+DESCRIPTION = Sgaw Karen keyboard for Kawthoolei
+DESCRIPTION.ksw_MM = Sgaw Karen keyboard for Kawthoolei
+DESCRIPTION.en_US = Sgaw Karen keyboard for Kawthoolei
+
+### Supported languages by this table
+LANGUAGES = ksw,kar
+
+### The author of this table
+AUTHOR = KNU
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = ကညီ
+
+### Configuration settings - Optimized for direct input
+AUTO_SELECT = TRUE
+AUTO_WILDCARD = FALSE
+AUTO_COMMIT = TRUE
+AUTO_SPLIT = TRUE
+ALWAYS_SHOW_LOOKUP = FALSE
+NEVER_SHOW_LOOKUP = TRUE
+DEF_FULL_WIDTH_PUNCT = FALSE
+DEF_FULL_WIDTH_LETTER = FALSE
+USER_CAN_DEFINE_PHRASE = FALSE
+PINYIN_MODE = FALSE
+DYNAMIC_ADJUST = FALSE
+
+### The max number of input keys for every phrase or character.
+MAX_KEY_LENGTH = 1
+
+### Valid input chars - Cleaned up
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890&*[]\;':",.
+
+### Key configurations - Direct input mode
+SPLIT_KEYS = 
+COMMIT_KEYS = 
+FORWARD_KEYS = 
+SELECT_KEYS = 
+PAGE_UP_KEYS = 
+PAGE_DOWN_KEYS = 
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+
+### Numbers (Myanmar digits)
+1	၁	1000
+2	၂	1000
+3	၃	1000
+4	၄	1000
+5	၅	1000
+6	၆	1000
+7	၇	1000
+8	၈	1000
+9	၉	1000
+0	၀	1000
+
+### Letters - Base layer (lowercase)
+q	ဆ	1000
+w	တ	1000
+e	န	1000
+r	မ	1000
+t	အ	1000
+y	ပ	1000
+u	က	1000
+i	င	1000
+o	သ	1000
+p	စ	1000
+a	ဒ်	1000
+s	ျ	1000
+d	ိ	1000
+f	်	1000
+g	ါ	1000
+h	့	1000
+j	ြ	1000
+k	ု	1000
+l	ူ	1000
+z	ဖ	1000
+x	ထ	1000
+c	ခ	1000
+v	လ	1000
+b	ဘ	1000
+n	ည	1000
+m	ၥ်	1000
+
+### Letters - Shift layer (uppercase) - Sgaw Karen specific
+Q	ၡ	800
+W	ဝ	800
+E	ၢၢ်	800
+R	ၤ	800
+T	ၢၥ်	800
+Y	ၢၣ်	800
+U	ွ့	800
+I	.	800
+O	ှု	800
+P	ၦ	800
+A	မ်	800
+S	ှ	800
+D	ီ	800
+F	ၠ	800
+G	ွ	800
+H	ံ	800
+J	ဲ	800
+K	ဒ	800
+L	လီၤ	800
+Z	ဇ	800
+X	ၢ	800
+C	ဃ	800
+V	ျ့	800
+B	ှ့	800
+N	ၥ	800
+M	န့ၣ်	800
+
+### Special characters and punctuation
+&	ရ	1000
+*	ဂ	1000
+[	ဟ	1000
+]	ၜ	1000
+\	'	1000
+;	း	1000
+'	၊	1000
+:	ဒီး	800
+"	။	800
+,	ယ	1000
+.	ၣ်	1000
+<	,	800
+>	ၢ်	800
+
+END_TABLE
