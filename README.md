@@ -262,7 +262,7 @@ Recommended fonts have their own licenses:
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/myanmar-linux-keyboards&type=Date)](https://star-history.com/#your-username/myanmar-linux-keyboards&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=kokoye2007/myanmar-linux-keyboards&type=Date)](https://star-history.com/#kokoye2007/myanmar-linux-keyboards&Date)
 
 ---
 
