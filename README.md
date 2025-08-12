@@ -1,6 +1,9 @@
 # Myanmar Linux Keyboards
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/release/your-username/myanmar-linux-keyboards.svg)](https://github.com/your-username/myanmar-linux-keyboards/releases)
+[![GitHub issues](https://img.shields.io/github/issues/your-username/myanmar-linux-keyboards.svg)](https://github.com/your-username/myanmar-linux-keyboards/issues)
+[![GitHub stars](https://img.shields.io/github/stars/your-username/myanmar-linux-keyboards.svg)](https://github.com/your-username/myanmar-linux-keyboards/stargazers)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%2B-orange.svg)](https://ubuntu.com/)
 [![Fedora](https://img.shields.io/badge/Fedora-35%2B-blue.svg)](https://getfedora.org/)
 [![Arch](https://img.shields.io/badge/Arch-rolling-brightgreen.svg)](https://archlinux.org/)
