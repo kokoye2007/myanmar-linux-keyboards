@@ -445,7 +445,8 @@ main() {
                 ;;
             3)
                 # Go back to main menu
-                continue
+                back_to_main_menu=true
+                break
                 ;;
             *)
                 print_color $RED "${EMOJI_CROSS} Invalid choice. Please select 1-3."
