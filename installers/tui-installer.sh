@@ -465,7 +465,97 @@ main() {
     fi
     
     # Show summary
-    show_summary
+    while true; do
+        # Reset variables for each run
+        install_xkb=false
+        install_ibus=false
+        burmese_selected=false
+        mon_selected=false
+        karen_selected=false
+        shan_selected=false
+        
+        # Main menu loop
+        while true; do
+            show_main_menu
+            
+            case $main_choice in
+                1)
+                    install_xkb=true
+                    install_ibus=false
+                    break
+                    ;;
+                2)
+                    install_xkb=false
+                    install_ibus=true
+                    break
+                    ;;
+                3)
+                    install_xkb=true
+                    install_ibus=true
+                    break
+                    ;;
+                4)
+                    print_color $YELLOW "Exiting installer..."
+                    exit 0
+                    ;;
+                *)
+                    print_color $RED "${EMOJI_CROSS} Invalid choice. Please select 1-4."
+                    read -p "Press Enter to continue..."
+                    ;;
+            esac
+        done
+        
+        # Language selection
+        back_to_main_menu=false
+        while true; do
+            show_language_menu
+            
+            case $lang_choice in
+                1)
+                    # Select all languages
+                    burmese_selected=true
+                    mon_selected=true
+                    karen_selected=true
+                    shan_selected=true
+                    break
+                    ;;
+                2)
+                    # Show specific language selection
+                    show_specific_languages
+                    break
+                    ;;
+                3)
+                    # Go back to main menu
+                    back_to_main_menu=true
+                    break
+                    ;;
+                *)
+                    print_color $RED "${EMOJI_CROSS} Invalid choice. Please select 1-3."
+                    read -p "Press Enter to continue..."
+                    ;;
+            esac
+        done
+        
+        # If user chose to go back to main menu, restart outer loop
+        if [ "$back_to_main_menu" = true ]; then
+            continue
+        fi
+        
+        # Perform installations
+        if [ "$install_xkb" = true ]; then
+            install_xkb_layouts
+        fi
+        
+        if [ "$install_ibus" = true ]; then
+            install_ibus_tables
+        fi
+        
+        # Show summary
+        show_summary
+        
+        # After summary, exit installer
+        break
+    done
 }
 
 # Run main function
