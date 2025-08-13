@@ -49,6 +49,17 @@ sudo ./installers/install-specific.sh mon
 sudo ./installers/install-specific.sh shan
 ```
 
+### Interactive TUI Installer
+For a guided installation experience, use our Text-based User Interface installer:
+```bash
+# Run the interactive TUI installer
+sudo ./installers/tui-installer.sh
+```
+The TUI installer provides an easy-to-use menu system that allows you to:
+- Choose between XKB layouts, IBus tables, or both
+- Select specific languages to install
+- Get real-time feedback during installation
+
 ## ⌨️ Input Methods Available
 
 ### **XKB Layouts** (System-level)
