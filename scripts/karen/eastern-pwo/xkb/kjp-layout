@@ -23,7 +23,7 @@ xkb_symbols "kjp" {
     key <AD01> { [ U1006, U1008, q, Q ] }; // ဆ, ဈ, q, Q
     key <AD02> { [ U1010, U101D, w, W ] }; // တ, ဝ, w, W
     key <AD03> { [ U1014, U105E, e, E ] }; // န, ၞ, e, E
-    key <AD04> { [ U1019, U1082, r, R ] }; // မ, ႂ, r, R
+    key <AD04> { [ U1019, U105F, r, R ] }; // မ,◌ၟ, r, R
     key <AD05> { [ U1021, U100D, t, T ] }; // အ, ဍ, t, T
     key <AD06> { [ U1015, U102B, y, Y ] }; // ပ, ါဲ, y, Y
     key <AD07> { [ U1000, U1025, u, U ] }; // က, ဥ, u, U
